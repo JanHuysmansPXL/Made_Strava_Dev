@@ -1,0 +1,97 @@
+<!-- THIS PAGE IS MADE TO TEST AND SCAFFOLD THE STRAVA DATA FOR THE MADE RUNNING WEBSITE -->
+<!-- JAN HUYSMANS -->
+
+<!-- TO DO: GET THE ACCESS TOKEN FROM STRAVA - FOR TEAM EFFORT USE THIS LINK TO FILL IN FORM -->
+<!-- https://share.hsforms.com/1VXSwPUYqSH6IxK0y51FjHwcnkd8 -->
+
+<!DOCTYPE html>
+<html lang="en, nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STRAVA TEST - Made Running</title>
+
+    <!-- GOOGLE FONTS - I used these for now as an alternative for Made Sans / Spectra GT !
+        -- Should I embed the original fonts perhaps ? -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500&family=Piazzolla:ital,opsz,wght@1,8..30,100&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/main.css">
+        <!-- Scripts for TESTING the Strava API-->
+        <script defer src="strava_api_v2.js"></script>
+        <script defer src="script.js"></script>
+</head>
+<body>
+
+    <!-- HEADER SECTE - VERBORGEN !! -->
+    <header class="header-block container-fluid d-none">
+        <h3 class="header-title">Dit is de Strava Test - Jan Huysmans</h1>
+    </header>
+
+    <!-- NAVBAR SECTIE -->
+    <header class="container-fluid">
+    <nav class="navbar">
+        <div class="navbar-brand"><a class="navbar-brand-link" href="index.html">Made.</a></div>
+        <div class="navbar-navlinks">
+          <ul class="navbar-list">
+            <li class="navbar-listitem txt-ss-body1"><a href="#" class="navbar-link">Work</a></li>
+            <li class="navbar-listitem txt-ss-body1"><a href="#" class="navbar-link">About</a></li>
+            <li class="navbar-listitem txt-ss-body1"><a href="#" class="navbar-link">Services</a></li>
+            <li class="navbar-listitem txt-ss-body1"><a href="#" class="navbar-link">Industries</a></li>
+            <li class="navbar-listitem txt-ss-body1"><a href="#" class="navbar-link">Careers</a></li>
+            <li class="navbar-listitem txt-ss-body1"><a href="#" class="contact-button">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+
+        <!-- Timer Section -->
+
+        <section class="countdown container">
+            <div class="countdown-wrap">
+                <p>Start time in</p>
+                <div id="countdown-days" class="countdown-data">
+                    <h2 class="countdown-number">311</h2>
+                    <p class="countdown-label">Days</p>
+                </div>
+                <div id="countdown-hours" class="countdown-data">
+                    <h2 class="countdown-number" >00</h2>
+                    <p class="countdown-label">Hours</p>
+                </div>
+                <div id="countdown-minutes" class="countdown-data">
+                    <h2 class="countdown-number" >33</h2>
+                    <p class="countdown-label">Minutes</p>
+                </div>
+                <div id="countdown-seconds" class="countdown-data">
+                    <h2 class="countdown-number" >58</h2>
+                    <p class="countdown-label">Seconds</p>
+                </div>
+                <!-- SPAN AANPASSEN / TOEVOEGEN -->
+                <!-- SCRIPT -> Timer.. -->
+            </div>
+        </section>
+
+        <!-- Progress Bar -->
+        <section class="container-fluid">
+            <p class="section-label">Goal</p>
+            <div class="container-fluid">
+                <div class="progressbar"></div>
+            </div>
+        </section>
+
+        <!-- Metrics Tabs-->
+        <section id="metrics" class="container-fluid">
+            <div class="metric-column">
+                <p class="metric-label">Kilometers</p>
+                <h1 class="metric-number">758</h1>
+                <p class="metric-text">We've run a long way in the fight against cancer. Every step brings us closer to our goal. Whether you run alongside us or contribute to our cause, every effort counts.</p>
+            </div>
+        </section>
+
+                
+
+    </main>
+</body>
+</html>

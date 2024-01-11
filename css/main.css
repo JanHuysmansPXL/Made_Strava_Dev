@@ -1,0 +1,223 @@
+/* GENERAL DISPLAY SETTINGS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM sans", Arial, Helvetica, sans-serif;
+}
+
+.container-fluid {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.d-none {
+  display: none;
+}
+
+.d-block {
+  display: block;
+}
+
+/* TEXT STYLES - ADDES STYLE FOR ITALIC ACCENT TEXTS */
+.txt-ss-h0 {
+  font-size: 140px;
+  line-height: 120%;
+  font-weight: 500;
+}
+
+.txt-ss-h1 {
+  font-size: 100px;
+  line-height: 120%;
+  font-weight: 500;
+}
+
+.txt-ss-h2 {
+  font-size: 77px;
+  line-height: 120%;
+  font-weight: 500;
+}
+
+.txt-ss-h3 {
+  font-size: 60px;
+  line-height: 120%;
+  font-weight: 500;
+}
+
+.txt-ss-h4 {
+  font-size: 36px;
+  line-height: 120%;
+  font-weight: 500;
+}
+
+.txt-ss-sub1 {
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 500;
+}
+
+.txt-ss-sub2 {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 500;
+}
+
+.txt-ss-body1 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.txt-ss-body2 {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+/* TEXT COLORS - ADDES STYLE FOR ITALIC ACCENT TEXTS */
+/* BASE COLORS */
+/* BG COLORS - ADDED STYLE FOR ITALIC ACCENT TEXTS */
+/* BACKGROUND COLORS */
+.bg-white {
+  background-color: #FFFFFF;
+}
+
+.bg-nt-10 {
+  background-color: #F3F5F5;
+}
+
+.bg-nt-15 {
+  background-color: #DAE3E3;
+}
+
+.bg-nt-60 {
+  background-color: #444F4F;
+}
+
+.bg-nt-100 {
+  background-color: #212323;
+}
+
+.bg-gr-30 {
+  background-color: #B6C6C6;
+}
+
+.bg-gr-50 {
+  background-color: #6F8484;
+}
+
+.bg-gr-80 {
+  background-color: #243838;
+}
+
+.bg-pp-30 {
+  background-color: #C1C1E5;
+}
+
+.bg-pp-50 {
+  background-color: #7777AA;
+}
+
+.bg-pp-75 {
+  background-color: #7137F6;
+}
+
+.bg-pp-80 {
+  background-color: #6224F3;
+}
+
+.bg-transparant {
+  background-color: rgba(255, 255, 255, 0.02);
+}
+
+/* TEXT COLORS */
+.txt-white {
+  background-color: #FFFFFF;
+}
+
+.txt-nt-10 {
+  background-color: #F3F5F5;
+}
+
+.txt-nt-15 {
+  background-color: #DAE3E3;
+}
+
+.txt-nt-60 {
+  background-color: #444F4F;
+}
+
+.txt-nt-100 {
+  background-color: #212323;
+}
+
+.txt-gr-30 {
+  background-color: #B6C6C6;
+}
+
+.txt-gr-50 {
+  background-color: #6F8484;
+}
+
+.txt-gr-80 {
+  background-color: #243838;
+}
+
+.txt-pp-30 {
+  background-color: #C1C1E5;
+}
+
+.txt-pp-50 {
+  background-color: #7777AA;
+}
+
+.txt-pp-75 {
+  background-color: #7137F6;
+}
+
+.txt-pp-80 {
+  background-color: #6224F3;
+}
+
+/* NAVBAR SECTIE --> QUICK STYLING */
+.header-block {
+  background-color: #DDD;
+  padding: 1rem;
+}
+
+.header-title {
+  text-align: center;
+  color: #333333;
+  margin: 1rem 0 1rem 0;
+}
+
+/* SECTION SETTINGS ? */
+.section-block {
+  margin: 1rem 2rem;
+}
+
+.section-heading {
+  color: #333333;
+  text-decoration: underline;
+}
+
+/* NAVBAR SECTIE --> QUICK STYLING */
+.navbar {
+  background-color: aliceblue;
+}
+
+.navbar-list {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.navbar-brand a,
+.navbar-link {
+  text-decoration: none;
+}
+
+.contact-button {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=main.css.map */

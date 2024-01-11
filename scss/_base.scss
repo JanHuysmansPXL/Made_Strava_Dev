@@ -1,0 +1,128 @@
+/* GENERAL DISPLAY SETTINGS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM sans', Arial, Helvetica, sans-serif
+}
+.container-fluid {
+    width: 100%;
+    margin: 0 auto;
+}
+.d-none {
+    display: none;
+}
+.d-block {
+    display: block;
+}
+
+/* TEXT STYLES - ADDES STYLE FOR ITALIC ACCENT TEXTS */ 
+.txt-ss-h0 {
+    font-size: 140px;
+    line-height: 120%;
+    font-weight: 500;
+}
+.txt-ss-h1 {
+    font-size: 100px;
+    line-height: 120%;
+    font-weight: 500;
+
+}
+.txt-ss-h2 {
+    font-size: 77px;
+    line-height: 120%;
+    font-weight: 500;
+
+}
+.txt-ss-h3 {
+    font-size: 60px;
+    line-height: 120%;
+    font-weight: 500;
+
+}
+.txt-ss-h4 {
+    font-size: 36px;
+    line-height: 120%;
+    font-weight: 500;
+
+}
+.txt-ss-sub1 {
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 500;
+
+}
+.txt-ss-sub2 {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 500;
+
+}
+.txt-ss-body1 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+
+}
+.txt-ss-body2 {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+
+}
+
+/* TEXT COLORS - ADDES STYLE FOR ITALIC ACCENT TEXTS */ 
+/* BASE COLORS */
+$color-white: #FFFFFF;
+$color-neutral--10: #F3F5F5;
+$color-neutral--15: #DAE3E3;
+$color-neutral--60: #444F4F;
+$color-neutral--100: #212323;
+
+$color-green--30: #B6C6C6;
+$color-green--50: #6F8484;
+$color-green--80: #243838;
+
+$color-purple--30: #C1C1E5;
+$color-purple--50: #7777AA;
+$color-purple--75: #7137F6;
+$color-purple--80: #6224F3;
+
+$color-transparant: rgba(255,255,255,0.02);
+
+/* BG COLORS - ADDED STYLE FOR ITALIC ACCENT TEXTS */ 
+/* BACKGROUND COLORS */
+.bg-white {background-color: $color-white;}
+.bg-nt-10 {background-color: $color-neutral--10;}
+.bg-nt-15 {background-color: $color-neutral--15;}
+.bg-nt-60 {background-color: $color-neutral--60;}
+.bg-nt-100 {background-color: $color-neutral--100;}
+
+.bg-gr-30 {background-color: $color-green--30;}
+.bg-gr-50 {background-color: $color-green--50;}
+.bg-gr-80 {background-color: $color-green--80;}
+
+.bg-pp-30 {background-color: $color-purple--30;}
+.bg-pp-50 {background-color: $color-purple--50;}
+.bg-pp-75 {background-color: $color-purple--75;}
+.bg-pp-80 {background-color: $color-purple--80;}
+
+.bg-transparant {background-color: $color-transparant;}
+
+/* TEXT COLORS */
+
+.txt-white {background-color: $color-white;}
+.txt-nt-10 {background-color: $color-neutral--10;}
+.txt-nt-15 {background-color: $color-neutral--15;}
+.txt-nt-60 {background-color: $color-neutral--60;}
+.txt-nt-100 {background-color: $color-neutral--100;}
+
+.txt-gr-30 {background-color: $color-green--30;}
+.txt-gr-50 {background-color: $color-green--50;}
+.txt-gr-80 {background-color: $color-green--80;}
+
+.txt-pp-30 {background-color: $color-purple--30;}
+.txt-pp-50 {background-color: $color-purple--50;}
+.txt-pp-75 {background-color: $color-purple--75;}
+.txt-pp-80 {background-color: $color-purple--80;}

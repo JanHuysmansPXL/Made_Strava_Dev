@@ -587,7 +587,11 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: baseline;
-  padding: 32px 80px;
+  padding-top: 80px;
+  padding-left: 32px;
+}
+.metrics-box .metric-column {
+  width: 33.33%;
 }
 .metrics-box .metric-column .metric-label {
   color: #444F4F;
@@ -598,9 +602,21 @@
 }
 
 .quote-block {
-  padding: 32px 80px;
+  padding-top: 160px;
+  padding-left: 32px;
 }
 .quote-block .quote-block-text {
+  text-indent: 160px;
+}
+
+.support-block-textwrap {
+  width: 50vw;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin: 0 auto;
+  text-align: center;
+}
+.support-block-textwrap .quote-block-text {
   text-indent: 160px;
 }
 

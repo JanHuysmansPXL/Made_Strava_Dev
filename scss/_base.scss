@@ -1,13 +1,15 @@
 /* GENERAL DISPLAY SETTINGS */
 
+
+$font-sans: 'DM sans', Arial, Helvetica;
+$font-italic: 'Piazzolla', Arial, Helvetica;
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'DM sans', Arial, Helvetica, sans-serif
+    font-family: $font-sans;
 }
-
-$font-italic: 'Piazzolla', Arial, Helvetica;
 
 /* DISPLAY */ 
 
@@ -119,118 +121,71 @@ $color-transparant: rgba(255,255,255,0.02);
 .pb-xxl { padding-bottom: $padding-xxl;}
 
 
-/* TEXT STYLES */ 
+/* SANS SERIF - DM SANS -> UPDATE TO MADE SANS */
+
 .txt-ss-h0 {
+    font-family: $font-sans;
     font-size: 140px;
     line-height: 120%;
     font-weight: 500;
 }
 .txt-ss-h1 {
+    font-family: $font-sans;
     font-size: 100px;
     line-height: 120%;
     font-weight: 500;
 
 }
 .txt-ss-h2 {
+    font-family: $font-sans;
     font-size: 77px;
     line-height: 120%;
     font-weight: 500;
 
 }
 .txt-ss-h3 {
+    font-family: $font-sans;
     font-size: 60px;
     line-height: 120%;
     font-weight: 500;
 
 }
 .txt-ss-h4 {
+    font-family: $font-sans;
     font-size: 36px;
     line-height: 120%;
     font-weight: 500;
 
 }
 .txt-ss-sub1 {
+    font-family: $font-sans;
     font-size: 28px;
     line-height: 36px;
     font-weight: 500;
 
 }
 .txt-ss-sub2 {
+    font-family: $font-sans;
     font-size: 20px;
     line-height: 26px;
     font-weight: 500;
 
 }
 .txt-ss-body1 {
+    font-family: $font-sans;
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
 
 }
 .txt-ss-body2 {
+    font-family: $font-sans;
     font-size: 14px;
     line-height: 24px;
     font-weight: 400;
 }
 
-/* ADD STYLE FOR ITALIC ACCENT TEXTS !! */
-
-
-/* TEXT STYLES - ADDES STYLE FOR ITALIC ACCENT TEXTS */ 
-.txt-ss-h0 {
-    font-size: 140px;
-    line-height: 120%;
-    font-weight: 500;
-}
-.txt-ss-h1 {
-    font-size: 100px;
-    line-height: 120%;
-    font-weight: 500;
-
-}
-.txt-ss-h2 {
-    font-size: 77px;
-    line-height: 120%;
-    font-weight: 500;
-
-}
-.txt-ss-h3 {
-    font-size: 60px;
-    line-height: 120%;
-    font-weight: 500;
-
-}
-.txt-ss-h4 {
-    font-size: 36px;
-    line-height: 120%;
-    font-weight: 500;
-
-}
-.txt-ss-sub1 {
-    font-size: 28px;
-    line-height: 36px;
-    font-weight: 500;
-
-}
-.txt-ss-sub2 {
-    font-size: 20px;
-    line-height: 26px;
-    font-weight: 500;
-
-}
-.txt-ss-body1 {
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 400;
-
-}
-.txt-ss-body2 {
-    font-size: 14px;
-    line-height: 24px;
-    font-weight: 400;
-}
-
-/* ITALICS - PIAZOLLA LIGHT*/
+/* ITALICS - PIAZOLLA LIGHT -> UPDATE TO SPECTRA GT*/
 
 .txt-it-h0 {
     font-family: $font-italic;

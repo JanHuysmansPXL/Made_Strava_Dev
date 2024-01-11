@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "DM sans", Arial, Helvetica, sans-serif;
+  font-family: "DM sans", Arial, Helvetica;
 }
 
 /* DISPLAY */
@@ -228,118 +228,71 @@
   padding-bottom: 160px;
 }
 
-/* TEXT STYLES */
+/* SANS SERIF - DM SANS -> UPDATE TO MADE SANS */
 .txt-ss-h0 {
+  font-family: "DM sans", Arial, Helvetica;
   font-size: 140px;
   line-height: 120%;
   font-weight: 500;
 }
 
 .txt-ss-h1 {
+  font-family: "DM sans", Arial, Helvetica;
   font-size: 100px;
   line-height: 120%;
   font-weight: 500;
 }
 
 .txt-ss-h2 {
+  font-family: "DM sans", Arial, Helvetica;
   font-size: 77px;
   line-height: 120%;
   font-weight: 500;
 }
 
 .txt-ss-h3 {
+  font-family: "DM sans", Arial, Helvetica;
   font-size: 60px;
   line-height: 120%;
   font-weight: 500;
 }
 
 .txt-ss-h4 {
+  font-family: "DM sans", Arial, Helvetica;
   font-size: 36px;
   line-height: 120%;
   font-weight: 500;
 }
 
 .txt-ss-sub1 {
+  font-family: "DM sans", Arial, Helvetica;
   font-size: 28px;
   line-height: 36px;
   font-weight: 500;
 }
 
 .txt-ss-sub2 {
+  font-family: "DM sans", Arial, Helvetica;
   font-size: 20px;
   line-height: 26px;
   font-weight: 500;
 }
 
 .txt-ss-body1 {
+  font-family: "DM sans", Arial, Helvetica;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
 }
 
 .txt-ss-body2 {
+  font-family: "DM sans", Arial, Helvetica;
   font-size: 14px;
   line-height: 24px;
   font-weight: 400;
 }
 
-/* ADD STYLE FOR ITALIC ACCENT TEXTS !! */
-/* TEXT STYLES - ADDES STYLE FOR ITALIC ACCENT TEXTS */
-.txt-ss-h0 {
-  font-size: 140px;
-  line-height: 120%;
-  font-weight: 500;
-}
-
-.txt-ss-h1 {
-  font-size: 100px;
-  line-height: 120%;
-  font-weight: 500;
-}
-
-.txt-ss-h2 {
-  font-size: 77px;
-  line-height: 120%;
-  font-weight: 500;
-}
-
-.txt-ss-h3 {
-  font-size: 60px;
-  line-height: 120%;
-  font-weight: 500;
-}
-
-.txt-ss-h4 {
-  font-size: 36px;
-  line-height: 120%;
-  font-weight: 500;
-}
-
-.txt-ss-sub1 {
-  font-size: 28px;
-  line-height: 36px;
-  font-weight: 500;
-}
-
-.txt-ss-sub2 {
-  font-size: 20px;
-  line-height: 26px;
-  font-weight: 500;
-}
-
-.txt-ss-body1 {
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-}
-
-.txt-ss-body2 {
-  font-size: 14px;
-  line-height: 24px;
-  font-weight: 400;
-}
-
-/* ITALICS - PIAZOLLA LIGHT*/
+/* ITALICS - PIAZOLLA LIGHT -> UPDATE TO SPECTRA GT*/
 .txt-it-h0 {
   font-family: "Piazzolla", Arial, Helvetica;
   font-size: 140px;
@@ -628,21 +581,50 @@
 
 .copy-box {
   width: 100%;
-  margin: 64px 32px;
+  margin: 80px 32px;
   display: flex;
   flex-direction: row;
   align-items: baseline;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 .copy-box .copy-column-left {
   min-width: 25%;
-  margin-left: 160px;
 }
 .copy-box .copy-column-left .copy-label {
-  color: #444F4F;
+  color: #6F8484;
+  font-weight: 400;
 }
 .copy-box .copy-column-right {
   min-width: 75%;
+}
+
+.actions-box {
+  width: 100%;
+  margin: 160px 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.actions-box .actions-column-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  min-width: 40%;
+}
+.actions-box .actions-column-left .actions-icon {
+  margin-right: 64px;
+}
+.actions-box .actions-column-left .actions-label {
+  color: #212323;
+}
+.actions-box .actions-column-right {
+  margin-right: 160px;
+}
+.actions-box .actions-column-right .actions-column-text {
+  display: inline-block;
+  max-width: 60ch;
 }
 
 /*# sourceMappingURL=main.css.map */

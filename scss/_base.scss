@@ -1,8 +1,21 @@
 /* GENERAL DISPLAY SETTINGS */
 
+@font-face {
+    font-family: GT Sectra;
+    src: url("/assets/fonts/GT-Sectra-Display-Regular-Italic.ttf");
+    src: url("/assets/fonts/GT-Sectra-Display-Regular-Italic.woff");
+    src: url("/assets/fonts/GT-Sectra-Display-Regular-Italic.woff2");
+  }
+  @font-face {
+    font-family: Made Sans;
+    src: url("/assets/fonts/MadeSans-Medium.ttf");
+    src: url("/assets/fonts/MadeSans-Medium.woff");
+    src: url("/assets/fonts/MadeSans-Medium.woff2");
+  }
 
-$font-sans: 'DM sans', Arial, Helvetica;
-$font-italic: 'Piazzolla', Arial, Helvetica;
+
+$font-sans: 'Made Sans', Arial, Helvetica;
+$font-italic: 'GT Sectra', Arial, Helvetica;
 
 * {
     margin: 0;
@@ -26,6 +39,9 @@ $font-italic: 'Piazzolla', Arial, Helvetica;
 }
 .d-block {
     display: block;
+}
+.d-inline {
+    display: inline;
 }
 
 /* PADDING / MARGIN - SETUP */
@@ -175,53 +191,61 @@ $color-transparant: rgba(255,255,255,0.02);
     font-family: $font-sans;
     font-size: 16px;
     line-height: 24px;
-    font-weight: 400;
+    font-weight: 300;
 
 }
 .txt-ss-body2 {
     font-family: $font-sans;
     font-size: 14px;
     line-height: 24px;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 /* ITALICS - PIAZOLLA LIGHT -> UPDATE TO SPECTRA GT*/
 
 .txt-it-h0 {
     font-family: $font-italic;
-    font-size: 140px;
+    font-size: 153px;
     line-height: 120%;
     font-weight: 300;
     font-style: italic;
 }
 .txt-ss-h1 {
     font-family: $font-italic;
-    font-size: 100px;
+    font-size: 110px;
     line-height: 120%;
     font-weight: 300;
     font-style: italic;
 }
 .txt-it-h2 {
     font-family: $font-italic;
-    font-size: 77px;
+    font-size: 84px;
     line-height: 120%;
     font-weight: 300;
     font-style: italic;
 }
 .txt-it-h3 {
     font-family: $font-italic;
-    font-size: 60px;
+    font-size: 65px;
     line-height: 120%;
     font-weight: 300;
     font-style: italic;
 }
 .txt-it-h4 {
     font-family: $font-italic;
-    font-size: 36px;
+    font-size: 40px;
     line-height: 120%;
     font-weight: 300;
     font-style: italic;
 }
+.txt-it-sub1 {
+    font-family: $font-italic;
+    font-size: 31px;
+    line-height: 120%;
+    font-weight: 300;
+    font-style: italic;
+}
+
 
 /* INDENT */
 

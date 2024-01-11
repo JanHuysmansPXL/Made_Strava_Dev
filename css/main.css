@@ -1,9 +1,21 @@
 /* GENERAL DISPLAY SETTINGS */
+@font-face {
+  font-family: GT Sectra;
+  src: url("/assets/fonts/GT-Sectra-Display-Regular-Italic.ttf");
+  src: url("/assets/fonts/GT-Sectra-Display-Regular-Italic.woff");
+  src: url("/assets/fonts/GT-Sectra-Display-Regular-Italic.woff2");
+}
+@font-face {
+  font-family: Made Sans;
+  src: url("/assets/fonts/MadeSans-Medium.ttf");
+  src: url("/assets/fonts/MadeSans-Medium.woff");
+  src: url("/assets/fonts/MadeSans-Medium.woff2");
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "DM sans", Arial, Helvetica;
+  font-family: "Made Sans", Arial, Helvetica;
 }
 
 /* DISPLAY */
@@ -23,6 +35,10 @@
 
 .d-block {
   display: block;
+}
+
+.d-inline {
+  display: inline;
 }
 
 /* PADDING / MARGIN - SETUP */
@@ -230,104 +246,112 @@
 
 /* SANS SERIF - DM SANS -> UPDATE TO MADE SANS*/
 .txt-ss-h0 {
-  font-family: "DM sans", Arial, Helvetica;
+  font-family: "Made Sans", Arial, Helvetica;
   font-size: 140px;
   line-height: 120%;
   font-weight: 500;
 }
 
 .txt-ss-h1 {
-  font-family: "DM sans", Arial, Helvetica;
+  font-family: "Made Sans", Arial, Helvetica;
   font-size: 100px;
   line-height: 120%;
   font-weight: 500;
 }
 
 .txt-ss-h2 {
-  font-family: "DM sans", Arial, Helvetica;
+  font-family: "Made Sans", Arial, Helvetica;
   font-size: 77px;
   line-height: 120%;
   font-weight: 500;
 }
 
 .txt-ss-h3 {
-  font-family: "DM sans", Arial, Helvetica;
+  font-family: "Made Sans", Arial, Helvetica;
   font-size: 60px;
   line-height: 120%;
   font-weight: 500;
 }
 
 .txt-ss-h4 {
-  font-family: "DM sans", Arial, Helvetica;
+  font-family: "Made Sans", Arial, Helvetica;
   font-size: 36px;
   line-height: 120%;
   font-weight: 500;
 }
 
 .txt-ss-sub1 {
-  font-family: "DM sans", Arial, Helvetica;
+  font-family: "Made Sans", Arial, Helvetica;
   font-size: 28px;
   line-height: 36px;
   font-weight: 500;
 }
 
 .txt-ss-sub2 {
-  font-family: "DM sans", Arial, Helvetica;
+  font-family: "Made Sans", Arial, Helvetica;
   font-size: 20px;
   line-height: 26px;
   font-weight: 500;
 }
 
 .txt-ss-body1 {
-  font-family: "DM sans", Arial, Helvetica;
+  font-family: "Made Sans", Arial, Helvetica;
   font-size: 16px;
   line-height: 24px;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .txt-ss-body2 {
-  font-family: "DM sans", Arial, Helvetica;
+  font-family: "Made Sans", Arial, Helvetica;
   font-size: 14px;
   line-height: 24px;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 /* ITALICS - PIAZOLLA LIGHT -> UPDATE TO SPECTRA GT*/
 .txt-it-h0 {
-  font-family: "Piazzolla", Arial, Helvetica;
-  font-size: 140px;
+  font-family: "GT Sectra", Arial, Helvetica;
+  font-size: 153px;
   line-height: 120%;
   font-weight: 300;
   font-style: italic;
 }
 
 .txt-ss-h1 {
-  font-family: "Piazzolla", Arial, Helvetica;
-  font-size: 100px;
+  font-family: "GT Sectra", Arial, Helvetica;
+  font-size: 110px;
   line-height: 120%;
   font-weight: 300;
   font-style: italic;
 }
 
 .txt-it-h2 {
-  font-family: "Piazzolla", Arial, Helvetica;
-  font-size: 77px;
+  font-family: "GT Sectra", Arial, Helvetica;
+  font-size: 84px;
   line-height: 120%;
   font-weight: 300;
   font-style: italic;
 }
 
 .txt-it-h3 {
-  font-family: "Piazzolla", Arial, Helvetica;
-  font-size: 60px;
+  font-family: "GT Sectra", Arial, Helvetica;
+  font-size: 65px;
   line-height: 120%;
   font-weight: 300;
   font-style: italic;
 }
 
 .txt-it-h4 {
-  font-family: "Piazzolla", Arial, Helvetica;
-  font-size: 36px;
+  font-family: "GT Sectra", Arial, Helvetica;
+  font-size: 40px;
+  line-height: 120%;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.txt-it-sub1 {
+  font-family: "GT Sectra", Arial, Helvetica;
+  font-size: 31px;
   line-height: 120%;
   font-weight: 300;
   font-style: italic;
@@ -444,10 +468,26 @@
 /* NAVBAR SECTIE --> QUICK STYLING */
 .header-block {
   width: 100%;
+  background-image: url("/assets/images/header_img_running.png");
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
 }
 
 .header-title-block {
   color: #F3F5F5;
+}
+
+#header {
+  width: 100%;
+  background-image: url("/assets/images/header_img_running.png");
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
 }
 
 /* SECTION SETTINGS ? */
@@ -478,12 +518,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 2rem 2rem;
 }
 .navbar .navbar-brand a {
   text-decoration: none;
-  color: #212323;
-  font-weight: 600;
+  color: #F3F5F5;
+  font-size: 24px;
+  font-weight: 500;
 }
 .navbar .navbar-list {
   list-style-type: none;
@@ -492,6 +533,7 @@
 .navbar .navbar-list .navbar-listitem {
   display: inline-block;
   margin-right: 3rem;
+  font-weight: 200;
 }
 .navbar .navbar-list .navbar-listitem:last-of-type {
   margin-right: 0;
@@ -510,7 +552,7 @@
 
 .countdown {
   text-align: center;
-  margin-top: 240px;
+  margin-top: 64px;
 }
 .countdown .countdown-wrap {
   width: 30vw;

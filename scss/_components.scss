@@ -4,9 +4,25 @@
 
 .header-block {
     width: 100%;
+    background-image: url("/assets/images/header_img_running.png");
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
 }
 .header-title-block {
     color: $color-neutral--10;
+}
+
+#header {
+      width: 100%;
+    background-image: url("/assets/images/header_img_running.png");
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
 }
 
 /* SECTION SETTINGS ? */ 
@@ -21,6 +37,7 @@
 
 /* COVER */
 
+//Obsolete
 .cover-image {
     width: 100%;
     height: auto;
@@ -39,12 +56,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem;
+    padding: 2rem 2rem;
 
     .navbar-brand a {
         text-decoration: none;
-        color: $color-neutral--100;
-        font-weight: 600;
+        color: $color-neutral--10;
+        font-size: 24px;
+        font-weight: 500;
     }
 
     .navbar-list {
@@ -53,6 +71,7 @@
         .navbar-listitem {
             display: inline-block;
             margin-right: 3rem;
+            font-weight: 200;
         }
         .navbar-listitem:last-of-type {
             margin-right: 0;
@@ -74,7 +93,7 @@
 
 .countdown {
     text-align: center;
-    margin-top: 240px;
+    margin-top: $margin-lg;
 
     .countdown-wrap {
     width: 30vw;

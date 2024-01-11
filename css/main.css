@@ -445,14 +445,11 @@
 
 /* NAVBAR SECTIE --> QUICK STYLING */
 .header-block {
-  background-color: #DDD;
-  padding: 1rem;
+  width: 100%;
 }
 
 .header-title-block {
-  text-align: start;
   color: #F3F5F5;
-  margin: 1rem 0 1rem 0;
 }
 
 /* SECTION SETTINGS ? */
@@ -461,15 +458,14 @@
 }
 
 .section-heading {
-  color: #333333;
-  text-decoration: underline;
+  color: #444F4F;
 }
 
 /* COVER */
 .cover-image {
   width: 100%;
   height: auto;
-  max-height: 480px;
+  max-height: 400px;
   object-fit: cover;
   position: absolute;
   top: 64px;
@@ -515,7 +511,6 @@
 
 .countdown {
   text-align: center;
-  margin-top: 500px;
 }
 .countdown .countdown-wrap {
   width: 30vw;
@@ -524,6 +519,34 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+}
+.countdown .countdown-wrap .countdown-data {
+  text-align: center;
+  width: 25%;
+}
+.countdown .countdown-wrap .countdown-data .countdown-number {
+  color: #212323;
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 500;
+}
+.countdown .countdown-wrap .countdown-data .countdown-label {
+  color: #6F8484;
+}
+
+.metrics-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: baseline;
+  padding: 32px 80px;
+}
+.metrics-box .metric-column .metric-label {
+  color: #444F4F;
+}
+.metrics-box .metric-column .metric-text {
+  color: #444F4F;
+  max-width: 75%;
 }
 
 /*# sourceMappingURL=main.css.map */

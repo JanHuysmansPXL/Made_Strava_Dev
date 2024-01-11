@@ -1,12 +1,14 @@
+@use "base" as *;
+
 /* NAVBAR SECTIE --> QUICK STYLING */
 
 .header-block {
     background-color: #DDD;
     padding: 1rem;
 }
-.header-title {
-    text-align: center;
-    color: #333333;
+.header-title-block {
+    text-align: start;
+    color: $color-neutral--10;
     margin: 1rem 0 1rem 0;
 }
 
@@ -20,22 +22,71 @@
     text-decoration: underline;
 }
 
+/* COVER */
+
+.cover-image {
+    width: 100%;
+    height: auto;
+    max-height: 480px;
+    object-fit: cover;
+    position: absolute;
+    top: 64px;
+    left: 0;
+    z-index: -99;
+}
+
 /* NAVBAR SECTIE --> QUICK STYLING */
 
 .navbar {
-    background-color: aliceblue;
+    background-color: $color-neutral--10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+
+    .navbar-brand a {
+        text-decoration: none;
+        color: $color-neutral--100;
+        font-weight: 600;
+    }
+
+    .navbar-list {
+        list-style-type: none;
+        text-decoration: none;
+        .navbar-listitem {
+            display: inline-block;
+            margin-right: 3rem;
+        }
+        .navbar-listitem:last-of-type {
+            margin-right: 0;
+        }
+    }
+    .navbar-link {
+        text-decoration: none;
+        color: $color-green--50;
+
+    }
+    .contact-button {
+        text-decoration: none;
+        font-weight: 200;
+        color: $color-neutral--10;
+        background-color: $color-purple--80;
+        padding: .5rem 1rem;
+    }
 }
 
-.navbar-list {
-    list-style-type: none;
-    text-decoration: none;
+.countdown {
+    text-align: center;
+    margin-top: 500px;
+
+    .countdown-wrap {
+    width: 30vw;
+    margin: 8px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    }
 }
 
-.navbar-brand a,
-.navbar-link {
-    text-decoration: none;
-}
 
-.contact-button {
-    text-decoration: none;
-}

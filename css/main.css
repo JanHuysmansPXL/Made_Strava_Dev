@@ -6,8 +6,14 @@
   font-family: "DM sans", Arial, Helvetica, sans-serif;
 }
 
+/* DISPLAY */
 .container-fluid {
   width: 100%;
+  margin: 0 auto;
+}
+
+.container-xxl {
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -19,6 +25,264 @@
   display: block;
 }
 
+/* PADDING / MARGIN - SETUP */
+/* MARGIN / PADDING - UTILITY CLASSES */
+.mx-auto {
+  margin: 0 auto;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+
+.mt-xs {
+  margin-top: 8px;
+}
+
+.mt-sm {
+  margin-top: 16px;
+}
+
+.mt-md {
+  margin-top: 32px;
+}
+
+.mt-lg {
+  margin-top: 64px;
+}
+
+.mt-xl {
+  margin-top: 80px;
+}
+
+.mt-xxl {
+  margin-top: 160px;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.mb-xs {
+  margin-bottom: 8px;
+}
+
+.mb-sm {
+  margin-bottom: 16px;
+}
+
+.mb-md {
+  margin-bottom: 32px;
+}
+
+.mb-lg {
+  margin-bottom: 64px;
+}
+
+.mb-xl {
+  margin-bottom: 80px;
+}
+
+.mb-xxl {
+  margin-bottom: 160px;
+}
+
+.ms-0 {
+  margin-top: 0;
+}
+
+.ms-xs {
+  margin-left: 8px;
+}
+
+.ms-sm {
+  margin-left: 16px;
+}
+
+.ms-md {
+  margin-left: 32px;
+}
+
+.ms-lg {
+  margin-left: 64px;
+}
+
+.ms-xl {
+  margin-left: 80px;
+}
+
+.ms-xxl {
+  margin-left: 160px;
+}
+
+.me-0 {
+  margin-right: 0;
+}
+
+.me-xs {
+  margin-right: 8px;
+}
+
+.me-sm {
+  margin-right: 16px;
+}
+
+.me-md {
+  margin-right: 32px;
+}
+
+.me-lg {
+  margin-right: 64px;
+}
+
+.me-xl {
+  margin-right: 80px;
+}
+
+.me-xxl {
+  margin-right: 160px;
+}
+
+.p-0 {
+  padding: 0;
+}
+
+.p-xs {
+  padding: 8px;
+}
+
+.p-sm {
+  padding: 16px;
+}
+
+.p-md {
+  padding: 32px;
+}
+
+.p-lg {
+  padding: 64px;
+}
+
+.p-xl {
+  padding: 80px;
+}
+
+.p-xxl {
+  padding: 160px;
+}
+
+.pt-0 {
+  padding-top: 0;
+}
+
+.pt-xs {
+  padding-top: 8px;
+}
+
+.pt-sm {
+  padding-top: 16px;
+}
+
+.pt-md {
+  padding-top: 32px;
+}
+
+.pt-lg {
+  padding-top: 64px;
+}
+
+.pt-xl {
+  padding-top: 80px;
+}
+
+.pt-xxl {
+  padding-top: 160px;
+}
+
+.pb-0 {
+  padding-bottom: 0;
+}
+
+.pb-xs {
+  padding-bottom: 8px;
+}
+
+.pb-sm {
+  padding-bottom: 16px;
+}
+
+.pb-md {
+  padding-bottom: 32px;
+}
+
+.pb-lg {
+  padding-bottom: 64px;
+}
+
+.pb-xl {
+  padding-bottom: 80px;
+}
+
+.pb-xxl {
+  padding-bottom: 160px;
+}
+
+/* TEXT STYLES */
+.txt-ss-h0 {
+  font-size: 140px;
+  line-height: 120%;
+  font-weight: 500;
+}
+
+.txt-ss-h1 {
+  font-size: 100px;
+  line-height: 120%;
+  font-weight: 500;
+}
+
+.txt-ss-h2 {
+  font-size: 77px;
+  line-height: 120%;
+  font-weight: 500;
+}
+
+.txt-ss-h3 {
+  font-size: 60px;
+  line-height: 120%;
+  font-weight: 500;
+}
+
+.txt-ss-h4 {
+  font-size: 36px;
+  line-height: 120%;
+  font-weight: 500;
+}
+
+.txt-ss-sub1 {
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 500;
+}
+
+.txt-ss-sub2 {
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 500;
+}
+
+.txt-ss-body1 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.txt-ss-body2 {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+/* ADD STYLE FOR ITALIC ACCENT TEXTS !! */
 /* TEXT STYLES - ADDES STYLE FOR ITALIC ACCENT TEXTS */
 .txt-ss-h0 {
   font-size: 140px;
@@ -185,9 +449,9 @@
   padding: 1rem;
 }
 
-.header-title {
-  text-align: center;
-  color: #333333;
+.header-title-block {
+  text-align: start;
+  color: #F3F5F5;
   margin: 1rem 0 1rem 0;
 }
 
@@ -201,23 +465,65 @@
   text-decoration: underline;
 }
 
-/* NAVBAR SECTIE --> QUICK STYLING */
-.navbar {
-  background-color: aliceblue;
+/* COVER */
+.cover-image {
+  width: 100%;
+  height: auto;
+  max-height: 480px;
+  object-fit: cover;
+  position: absolute;
+  top: 64px;
+  left: 0;
+  z-index: -99;
 }
 
-.navbar-list {
+/* NAVBAR SECTIE --> QUICK STYLING */
+.navbar {
+  background-color: #F3F5F5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+.navbar .navbar-brand a {
+  text-decoration: none;
+  color: #212323;
+  font-weight: 600;
+}
+.navbar .navbar-list {
   list-style-type: none;
   text-decoration: none;
 }
-
-.navbar-brand a,
-.navbar-link {
+.navbar .navbar-list .navbar-listitem {
+  display: inline-block;
+  margin-right: 3rem;
+}
+.navbar .navbar-list .navbar-listitem:last-of-type {
+  margin-right: 0;
+}
+.navbar .navbar-link {
   text-decoration: none;
+  color: #6F8484;
+}
+.navbar .contact-button {
+  text-decoration: none;
+  font-weight: 200;
+  color: #F3F5F5;
+  background-color: #6224F3;
+  padding: 0.5rem 1rem;
 }
 
-.contact-button {
-  text-decoration: none;
+.countdown {
+  text-align: center;
+  margin-top: 500px;
+}
+.countdown .countdown-wrap {
+  width: 30vw;
+  margin: 8px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /*# sourceMappingURL=main.css.map */

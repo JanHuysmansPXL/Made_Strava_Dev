@@ -7,6 +7,8 @@
     font-family: 'DM sans', Arial, Helvetica, sans-serif
 }
 
+$font-italic: 'Piazzolla', Arial, Helvetica;
+
 /* DISPLAY */ 
 
 .container-fluid {
@@ -209,6 +211,45 @@ $padding-xxl: 160px;
     line-height: 24px;
     font-weight: 400;
 }
+
+/* ITALICS - PIAZOLLA LIGHT*/
+
+.txt-it-h0 {
+    font-family: $font-italic;
+    font-size: 140px;
+    line-height: 120%;
+    font-weight: 300;
+    font-style: italic;
+}
+.txt-ss-h1 {
+    font-family: $font-italic;
+    font-size: 100px;
+    line-height: 120%;
+    font-weight: 300;
+    font-style: italic;
+}
+.txt-it-h2 {
+    font-family: $font-italic;
+    font-size: 77px;
+    line-height: 120%;
+    font-weight: 300;
+    font-style: italic;
+}
+.txt-it-h3 {
+    font-family: $font-italic;
+    font-size: 60px;
+    line-height: 120%;
+    font-weight: 300;
+    font-style: italic;
+}
+.txt-it-h4 {
+    font-family: $font-italic;
+    font-size: 36px;
+    line-height: 120%;
+    font-weight: 300;
+    font-style: italic;
+}
+
 
 /* TEXT COLORS - ADDES STYLE FOR ITALIC ACCENT TEXTS */ 
 /* BASE COLORS */

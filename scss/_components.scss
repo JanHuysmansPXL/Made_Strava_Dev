@@ -11,7 +11,8 @@
 
 /* SECTION SETTINGS ? */ 
 .section-block {
-    margin: 1rem 2rem;
+    padding-top: $padding-md;
+    padding-left: $padding-md;
 
 }
 .section-heading {
@@ -132,7 +133,7 @@
 }
 
 .support-block-textwrap {
-    margin: 0 auto;
+    margin: $margin-xl auto;
     width: 800px;
     padding-top: $padding-md;
     padding-bottom: $padding-md;
@@ -143,4 +144,21 @@
     }
 }
 
-
+.copy-box {
+    width: 100%;
+    margin: $margin-lg $margin-md;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    .copy-column-left {
+        min-width: 25%;
+        margin-left: $margin-xxl;
+        .copy-label {
+            color: $color-neutral--60;
+        }
+    }
+    .copy-column-right {
+        min-width: 75%;
+    }
+}

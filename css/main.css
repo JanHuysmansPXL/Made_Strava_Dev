@@ -26,6 +26,7 @@
 }
 
 /* PADDING / MARGIN - SETUP */
+/* BASE COLORS */
 /* MARGIN / PADDING - UTILITY CLASSES */
 .mx-auto {
   margin: 0 auto;
@@ -379,8 +380,60 @@
   font-style: italic;
 }
 
-/* TEXT COLORS - ADDES STYLE FOR ITALIC ACCENT TEXTS */
-/* BASE COLORS */
+/* INDENT */
+.indent-xxl {
+  text-indent: 160px;
+}
+
+/* TEXT COLORS */
+.txt-white {
+  color: #FFFFFF;
+}
+
+.txt-nt-10 {
+  color: #F3F5F5;
+}
+
+.txt-nt-15 {
+  color: #DAE3E3;
+}
+
+.txt-nt-60 {
+  color: #444F4F;
+}
+
+.txt-nt-100 {
+  color: #212323;
+}
+
+.txt-gr-30 {
+  color: #B6C6C6;
+}
+
+.txt-gr-50 {
+  color: #6F8484;
+}
+
+.txt-gr-80 {
+  color: #243838;
+}
+
+.txt-pp-30 {
+  color: #C1C1E5;
+}
+
+.txt-pp-50 {
+  color: #7777AA;
+}
+
+.txt-pp-75 {
+  color: #7137F6;
+}
+
+.txt-pp-80 {
+  color: #6224F3;
+}
+
 /* BG COLORS - ADDED STYLE FOR ITALIC ACCENT TEXTS */
 /* BACKGROUND COLORS */
 .bg-white {
@@ -435,55 +488,6 @@
   background-color: rgba(255, 255, 255, 0.02);
 }
 
-/* TEXT COLORS */
-.txt-white {
-  background-color: #FFFFFF;
-}
-
-.txt-nt-10 {
-  background-color: #F3F5F5;
-}
-
-.txt-nt-15 {
-  background-color: #DAE3E3;
-}
-
-.txt-nt-60 {
-  background-color: #444F4F;
-}
-
-.txt-nt-100 {
-  background-color: #212323;
-}
-
-.txt-gr-30 {
-  background-color: #B6C6C6;
-}
-
-.txt-gr-50 {
-  background-color: #6F8484;
-}
-
-.txt-gr-80 {
-  background-color: #243838;
-}
-
-.txt-pp-30 {
-  background-color: #C1C1E5;
-}
-
-.txt-pp-50 {
-  background-color: #7777AA;
-}
-
-.txt-pp-75 {
-  background-color: #7137F6;
-}
-
-.txt-pp-80 {
-  background-color: #6224F3;
-}
-
 /* NAVBAR SECTIE --> QUICK STYLING */
 .header-block {
   width: 100%;
@@ -495,7 +499,8 @@
 
 /* SECTION SETTINGS ? */
 .section-block {
-  margin: 1rem 2rem;
+  padding-top: 32px;
+  padding-left: 32px;
 }
 
 .section-heading {
@@ -610,7 +615,8 @@
 }
 
 .support-block-textwrap {
-  width: 50vw;
+  margin: 80px auto;
+  width: 800px;
   padding-top: 32px;
   padding-bottom: 32px;
   margin: 0 auto;
@@ -618,6 +624,25 @@
 }
 .support-block-textwrap .quote-block-text {
   text-indent: 160px;
+}
+
+.copy-box {
+  width: 100%;
+  margin: 64px 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+}
+.copy-box .copy-column-left {
+  min-width: 25%;
+  margin-left: 160px;
+}
+.copy-box .copy-column-left .copy-label {
+  color: #444F4F;
+}
+.copy-box .copy-column-right {
+  min-width: 75%;
 }
 
 /*# sourceMappingURL=main.css.map */

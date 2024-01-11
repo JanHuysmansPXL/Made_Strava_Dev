@@ -41,6 +41,24 @@ $padding-lg: 64px;
 $padding-xl: 80px;
 $padding-xxl: 160px;
 
+/* BASE COLORS */
+$color-white: #FFFFFF;
+$color-neutral--10: #F3F5F5;
+$color-neutral--15: #DAE3E3;
+$color-neutral--60: #444F4F;
+$color-neutral--100: #212323;
+
+$color-green--30: #B6C6C6;
+$color-green--50: #6F8484;
+$color-green--80: #243838;
+
+$color-purple--30: #C1C1E5;
+$color-purple--50: #7777AA;
+$color-purple--75: #7137F6;
+$color-purple--80: #6224F3;
+
+$color-transparant: rgba(255,255,255,0.02);
+
 /* MARGIN / PADDING - UTILITY CLASSES */
 .mx-auto { margin: 0 auto }
 
@@ -256,24 +274,22 @@ $padding-xxl: 160px;
     text-indent: 160px;
 }
 
-/* TEXT COLORS - ADDES STYLE FOR ITALIC ACCENT TEXTS */ 
-/* BASE COLORS */
-$color-white: #FFFFFF;
-$color-neutral--10: #F3F5F5;
-$color-neutral--15: #DAE3E3;
-$color-neutral--60: #444F4F;
-$color-neutral--100: #212323;
+/* TEXT COLORS */
 
-$color-green--30: #B6C6C6;
-$color-green--50: #6F8484;
-$color-green--80: #243838;
+.txt-white {color: $color-white;}
+.txt-nt-10 {color: $color-neutral--10;}
+.txt-nt-15 {color: $color-neutral--15;}
+.txt-nt-60 {color: $color-neutral--60;}
+.txt-nt-100 {color: $color-neutral--100;}
 
-$color-purple--30: #C1C1E5;
-$color-purple--50: #7777AA;
-$color-purple--75: #7137F6;
-$color-purple--80: #6224F3;
+.txt-gr-30 {color: $color-green--30;}
+.txt-gr-50 {color: $color-green--50;}
+.txt-gr-80 {color: $color-green--80;}
 
-$color-transparant: rgba(255,255,255,0.02);
+.txt-pp-30 {color: $color-purple--30;}
+.txt-pp-50 {color: $color-purple--50;}
+.txt-pp-75 {color: $color-purple--75;}
+.txt-pp-80 {color: $color-purple--80;}
 
 /* BG COLORS - ADDED STYLE FOR ITALIC ACCENT TEXTS */ 
 /* BACKGROUND COLORS */
@@ -294,19 +310,3 @@ $color-transparant: rgba(255,255,255,0.02);
 
 .bg-transparant {background-color: $color-transparant;}
 
-/* TEXT COLORS */
-
-.txt-white {background-color: $color-white;}
-.txt-nt-10 {background-color: $color-neutral--10;}
-.txt-nt-15 {background-color: $color-neutral--15;}
-.txt-nt-60 {background-color: $color-neutral--60;}
-.txt-nt-100 {background-color: $color-neutral--100;}
-
-.txt-gr-30 {background-color: $color-green--30;}
-.txt-gr-50 {background-color: $color-green--50;}
-.txt-gr-80 {background-color: $color-green--80;}
-
-.txt-pp-30 {background-color: $color-purple--30;}
-.txt-pp-50 {background-color: $color-purple--50;}
-.txt-pp-75 {background-color: $color-purple--75;}
-.txt-pp-80 {background-color: $color-purple--80;}

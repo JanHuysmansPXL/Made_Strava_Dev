@@ -228,7 +228,7 @@
   padding-bottom: 160px;
 }
 
-/* SANS SERIF - DM SANS -> UPDATE TO MADE SANS */
+/* SANS SERIF - DM SANS -> UPDATE TO MADE SANS*/
 .txt-ss-h0 {
   font-family: "DM sans", Arial, Helvetica;
   font-size: 140px;
@@ -467,14 +467,14 @@
   max-height: 480px;
   object-fit: cover;
   position: absolute;
-  top: 64px;
+  top: 0;
   left: 0;
   z-index: -99;
 }
 
 /* NAVBAR SECTIE --> QUICK STYLING */
 .navbar {
-  background-color: #F3F5F5;
+  background-color: rgba(255, 255, 255, 0.02);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -498,7 +498,7 @@
 }
 .navbar .navbar-link {
   text-decoration: none;
-  color: #6F8484;
+  color: #F3F5F5;
 }
 .navbar .contact-button {
   text-decoration: none;
@@ -611,7 +611,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  min-width: 40%;
+  min-width: 520px;
 }
 .actions-box .actions-column-left .actions-icon {
   margin-right: 64px;
@@ -624,7 +624,21 @@
 }
 .actions-box .actions-column-right .actions-column-text {
   display: inline-block;
-  max-width: 60ch;
+  width: 60ch;
+}
+
+.actions-carousel {
+  width: 100%;
+  display: flex;
+}
+.actions-carousel .action-card {
+  width: 33.33%;
+  min-height: 320px;
+}
+.actions-carousel .action-card .action-card-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 /*# sourceMappingURL=main.css.map */

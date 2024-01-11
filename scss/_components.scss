@@ -27,7 +27,7 @@
     max-height: 480px;
     object-fit: cover;
     position: absolute;
-    top: 64px;
+    top: 0;
     left: 0;
     z-index: -99;
 }
@@ -35,7 +35,7 @@
 /* NAVBAR SECTIE --> QUICK STYLING */
 
 .navbar {
-    background-color: $color-neutral--10;
+    background-color: $color-transparant;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -60,7 +60,7 @@
     }
     .navbar-link {
         text-decoration: none;
-        color: $color-green--50;
+        color: $color-neutral--10;
 
     }
     .contact-button {
@@ -175,7 +175,7 @@
         flex-direction: row;
         align-items: center;
         justify-content: flex-start;
-        min-width: 40%;
+        min-width: 520px;
         .actions-icon {
             margin-right: 64px;
         }
@@ -187,7 +187,21 @@
         margin-right: $margin-xxl;
         .actions-column-text {
             display: inline-block;
-            max-width: 60ch;
+            width: 60ch;
+        }
+    }
+}
+
+.actions-carousel {
+    width: 100%;
+    display: flex;
+    .action-card {
+        width: 33.33%;
+        min-height: 320px;
+        .action-card-img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
         }
     }
 }

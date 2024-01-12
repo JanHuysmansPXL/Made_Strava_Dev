@@ -114,6 +114,50 @@
     }
 }
 
+// PROGRESS BAR
+
+#progressbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    height: 80px;
+    background-color: $color-purple--30;
+} 
+  #progress-fill {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;    
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    //Use width to change progress volume.
+    width: 30%;
+    height: 100%;
+    background-color: $color-purple--80;
+    text-align: center;
+    line-height: 64px;
+    color: $color-purple--30;
+  }
+.fill-text--left {
+    color: $color-neutral--10;
+    display: inline-block;
+    margin-left: $margin-md;
+}
+.fill-text--right {
+    color: $color-neutral--10;
+    display: inline-block;
+    margin-right: $margin-md;
+}
+.progress-text {
+    color: $color-purple--80;
+    display: inline-block;
+    margin-right: $margin-md;
+}
+// METRICS
 .metrics-box {
     display: flex;
     flex-direction: row;
@@ -142,7 +186,7 @@
 }
 
 .support-block-textwrap {
-    width: 800px;
+    width: 50%;
     margin: 0 auto;
     text-align: center;
     padding-top: $padding-lg;
@@ -173,7 +217,7 @@
 
 .actions-box {
     width: 100%;
-    margin: $margin-xl $margin-md;
+    margin: $margin-lg $margin-md;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -203,6 +247,10 @@
 .event-carousel {
     width: 100%;
     display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-bottom: $padding-lg;
     .event-card {
         width: 33.33%;
         min-height: 320px;
@@ -216,11 +264,16 @@
 
 .actions-carousel {
     width: 100%;
-    margin: 0 $margin-xl;
+    max-width: 1400px;
+    margin: 0 $margin-md;
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    overflow-x: scroll;
     .actions-card {
         margin: $margin-xs;
-        width: 332px;
+        max-width: 332px;
         min-height: 240px;
         .card-labelrow {
             display: flex;
@@ -246,16 +299,39 @@
 
 
 .donate-block-textwrap {
-    width: 800px;
+    width: 50%;
     margin: 0 auto;
     text-align: start;
-    padding-top: $padding-lg;
-    padding-bottom: $padding-lg;
+    margin-top: $padding-lg;
+    margin-bottom: $padding-lg;
     .donate-button {
         text-decoration: none;
         font-weight: 200;
         color: $color-neutral--10;
         background-color: $color-purple--80;
         padding: .5rem 1rem;
+    }
+}
+
+.playlist-box {
+    width: 100%;
+    margin: $margin-xl $margin-md;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: flex-start;
+    .playlist-column-left {
+        width: 100%;
+        .playlist-label {
+            color: $color-green--50;
+            font-weight: 400;
+        }
+    }
+    .playlist-column-right {
+        min-width: 60%;
+        align-self: center;
+        .playlist-frame {
+            border-radius: 12px;
+        }
     }
 }

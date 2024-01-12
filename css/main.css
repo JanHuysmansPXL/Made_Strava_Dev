@@ -572,6 +572,51 @@
   margin-bottom: 48px;
 }
 
+#progressbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 85%;
+  height: 80px;
+  background-color: #C1C1E5;
+}
+
+#progress-fill {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 30%;
+  height: 100%;
+  background-color: #6224F3;
+  text-align: center;
+  line-height: 64px;
+  color: #C1C1E5;
+}
+
+.fill-text--left {
+  color: #F3F5F5;
+  display: inline-block;
+  margin-left: 32px;
+}
+
+.fill-text--right {
+  color: #F3F5F5;
+  display: inline-block;
+  margin-right: 32px;
+}
+
+.progress-text {
+  color: #6224F3;
+  display: inline-block;
+  margin-right: 32px;
+}
+
 .metrics-box {
   display: flex;
   flex-direction: row;
@@ -600,7 +645,7 @@
 }
 
 .support-block-textwrap {
-  width: 800px;
+  width: 50%;
   margin: 0 auto;
   text-align: center;
   padding-top: 64px;
@@ -631,7 +676,7 @@
 
 .actions-box {
   width: 100%;
-  margin: 80px 32px;
+  margin: 64px 32px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -661,6 +706,10 @@
 .event-carousel {
   width: 100%;
   display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-bottom: 64px;
 }
 .event-carousel .event-card {
   width: 33.33%;
@@ -674,12 +723,17 @@
 
 .actions-carousel {
   width: 100%;
-  margin: 0 80px;
+  max-width: 1400px;
+  margin: 0 32px;
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  overflow-x: scroll;
 }
 .actions-carousel .actions-card {
   margin: 8px;
-  width: 332px;
+  max-width: 332px;
   min-height: 240px;
 }
 .actions-carousel .actions-card .card-labelrow {
@@ -703,11 +757,11 @@
 }
 
 .donate-block-textwrap {
-  width: 800px;
+  width: 50%;
   margin: 0 auto;
   text-align: start;
-  padding-top: 64px;
-  padding-bottom: 64px;
+  margin-top: 64px;
+  margin-bottom: 64px;
 }
 .donate-block-textwrap .donate-button {
   text-decoration: none;
@@ -715,6 +769,29 @@
   color: #F3F5F5;
   background-color: #6224F3;
   padding: 0.5rem 1rem;
+}
+
+.playlist-box {
+  width: 100%;
+  margin: 80px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: flex-start;
+}
+.playlist-box .playlist-column-left {
+  width: 100%;
+}
+.playlist-box .playlist-column-left .playlist-label {
+  color: #6F8484;
+  font-weight: 400;
+}
+.playlist-box .playlist-column-right {
+  min-width: 60%;
+  align-self: center;
+}
+.playlist-box .playlist-column-right .playlist-frame {
+  border-radius: 12px;
 }
 
 /*# sourceMappingURL=main.css.map */

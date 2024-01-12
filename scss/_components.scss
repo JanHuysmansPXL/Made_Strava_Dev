@@ -2,7 +2,7 @@
 
 /* NAVBAR SECTIE --> QUICK STYLING */
 
-.header-block {
+#header {
     width: 100%;
     background-image: url("/assets/images/header_img_running.png");
     background-color: #cccccc; /* Used if the image is unavailable */
@@ -13,16 +13,6 @@
 }
 .header-title-block {
     color: $color-neutral--10;
-}
-
-#header {
-      width: 100%;
-    background-image: url("/assets/images/header_img_running.png");
-    background-color: #cccccc; /* Used if the image is unavailable */
-    height: 500px; /* You must set a specified height */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
 }
 
 /* SECTION SETTINGS ? */ 
@@ -71,7 +61,7 @@
         .navbar-listitem {
             display: inline-block;
             margin-right: 3rem;
-            font-weight: 200;
+            font-weight: 300;
         }
         .navbar-listitem:last-of-type {
             margin-right: 0;
@@ -84,7 +74,7 @@
     }
     .contact-button {
         text-decoration: none;
-        font-weight: 200;
+        font-weight: 00;
         color: $color-neutral--10;
         background-color: $color-purple--80;
         padding: .5rem 1rem;

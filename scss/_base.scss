@@ -15,13 +15,14 @@
 
 
 $font-sans: 'Made Sans', Arial, Helvetica;
+$font-dm-sans: 'DM Sans', Arial, Helvetica;
 $font-italic: 'GT Sectra', Arial, Helvetica;
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: $font-sans;
+    font-family: $font-dm-sans;
 }
 
 /* DISPLAY */ 
@@ -174,34 +175,34 @@ $color-transparant: rgba(255,255,255,0.02);
 
 }
 .txt-ss-sub1 {
-    font-family: $font-sans;
+    font-family: $font-dm-sans;
     font-size: 28px;
     line-height: 36px;
     font-weight: 500;
 
 }
 .txt-ss-sub2 {
-    font-family: $font-sans;
+    font-family: $font-dm-sans;
     font-size: 20px;
     line-height: 26px;
     font-weight: 500;
 
 }
 .txt-ss-body1 {
-    font-family: $font-sans;
+    font-family: $font-dm-sans;
     font-size: 16px;
     line-height: 24px;
     font-weight: 300;
 
 }
 .txt-ss-body2 {
-    font-family: $font-sans;
+    font-family: $font-dm-sans;
     font-size: 14px;
     line-height: 24px;
     font-weight: 300;
 }
 
-/* ITALICS - PIAZOLLA LIGHT -> UPDATE TO SPECTRA GT*/
+/* ITALICS -- SPECTRA GT */
 
 .txt-it-h0 {
     font-family: $font-italic;

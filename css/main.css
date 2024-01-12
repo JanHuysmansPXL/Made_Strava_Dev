@@ -15,7 +15,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Made Sans", Arial, Helvetica;
+  font-family: "DM Sans", Arial, Helvetica;
 }
 
 /* DISPLAY */
@@ -281,34 +281,34 @@
 }
 
 .txt-ss-sub1 {
-  font-family: "Made Sans", Arial, Helvetica;
+  font-family: "DM Sans", Arial, Helvetica;
   font-size: 28px;
   line-height: 36px;
   font-weight: 500;
 }
 
 .txt-ss-sub2 {
-  font-family: "Made Sans", Arial, Helvetica;
+  font-family: "DM Sans", Arial, Helvetica;
   font-size: 20px;
   line-height: 26px;
   font-weight: 500;
 }
 
 .txt-ss-body1 {
-  font-family: "Made Sans", Arial, Helvetica;
+  font-family: "DM Sans", Arial, Helvetica;
   font-size: 16px;
   line-height: 24px;
   font-weight: 300;
 }
 
 .txt-ss-body2 {
-  font-family: "Made Sans", Arial, Helvetica;
+  font-family: "DM Sans", Arial, Helvetica;
   font-size: 14px;
   line-height: 24px;
   font-weight: 300;
 }
 
-/* ITALICS - PIAZOLLA LIGHT -> UPDATE TO SPECTRA GT*/
+/* ITALICS -- SPECTRA GT */
 .txt-it-h0 {
   font-family: "GT Sectra", Arial, Helvetica;
   font-size: 153px;
@@ -466,7 +466,7 @@
 }
 
 /* NAVBAR SECTIE --> QUICK STYLING */
-.header-block {
+#header {
   width: 100%;
   background-image: url("/assets/images/header_img_running.png");
   background-color: #cccccc; /* Used if the image is unavailable */
@@ -478,16 +478,6 @@
 
 .header-title-block {
   color: #F3F5F5;
-}
-
-#header {
-  width: 100%;
-  background-image: url("/assets/images/header_img_running.png");
-  background-color: #cccccc; /* Used if the image is unavailable */
-  height: 500px; /* You must set a specified height */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
 }
 
 /* SECTION SETTINGS ? */
@@ -533,7 +523,7 @@
 .navbar .navbar-list .navbar-listitem {
   display: inline-block;
   margin-right: 3rem;
-  font-weight: 200;
+  font-weight: 300;
 }
 .navbar .navbar-list .navbar-listitem:last-of-type {
   margin-right: 0;
@@ -544,7 +534,7 @@
 }
 .navbar .contact-button {
   text-decoration: none;
-  font-weight: 200;
+  font-weight: 0;
   color: #F3F5F5;
   background-color: #6224F3;
   padding: 0.5rem 1rem;

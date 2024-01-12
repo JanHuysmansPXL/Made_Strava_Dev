@@ -60,7 +60,7 @@
         text-decoration: none;
         .navbar-listitem {
             display: inline-block;
-            margin-right: 3rem;
+            margin-right: $margin-lg;
             font-weight: 300;
         }
         .navbar-listitem:last-of-type {
@@ -250,7 +250,7 @@
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
-    padding-bottom: $padding-lg;
+    padding-bottom: $padding-xl;
     .event-card {
         width: 33.33%;
         min-height: 320px;
@@ -264,8 +264,8 @@
 
 .actions-carousel {
     width: 100%;
-    max-width: 1400px;
-    margin: 0 $margin-md;
+    max-width: 100%;
+    padding: 0 $padding-md;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -273,7 +273,7 @@
     overflow-x: scroll;
     .actions-card {
         margin: $margin-xs;
-        max-width: 332px;
+        max-width: 320px;
         min-height: 240px;
         .card-labelrow {
             display: flex;
@@ -296,7 +296,6 @@
         }
     }
 }
-
 
 .donate-block-textwrap {
     width: 50%;
@@ -332,6 +331,39 @@
         align-self: center;
         .playlist-frame {
             border-radius: 12px;
+        }
+    }
+}
+.testimonial {
+    width: 100%;
+    margin: 0 auto;
+    .testimonial-row {
+        width: 100%;
+        padding: $padding-xl $padding-md;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        background-color: $color-neutral--100;
+        color: $color-neutral--10;
+        .testimonial-column-left {
+            width: 70%;
+            .testimonial-label {
+                color: $color-green--50;
+                font-weight: 400;
+            }
+        }
+        .testimonial-column-right {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: flex-end;
+            width: 30%;
+            justify-self: flex-end;
+        }
+        .testimonial-author {
+            width: 100%;
         }
     }
 }

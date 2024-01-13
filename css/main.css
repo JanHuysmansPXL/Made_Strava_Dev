@@ -534,12 +534,18 @@ body {
   text-decoration: none;
   color: #F3F5F5;
 }
+.navbar .navbar-link:hover {
+  color: #7137F6;
+}
 .navbar .contact-button {
   text-decoration: none;
   font-weight: 0;
   color: #F3F5F5;
   background-color: #6224F3;
   padding: 0.5rem 1rem;
+}
+.navbar .contact-button:hover {
+  background-color: #7137F6;
 }
 
 .countdown {
@@ -574,6 +580,14 @@ body {
   margin-bottom: 48px;
 }
 
+.skill-bar span {
+  animation: w70 1s ease forwards;
+}
+
+.skill-bar .w70 {
+  width: 70%;
+}
+
 #progressbar {
   display: flex;
   flex-direction: row;
@@ -599,6 +613,15 @@ body {
   text-align: center;
   line-height: 64px;
   color: #C1C1E5;
+  animation: progress 1.5s cubic-bezier(0.77, 0.3, 0.18, 1) forwards;
+}
+@keyframes progress {
+  from {
+    width: 17%;
+  }
+  to {
+    width: 22%;
+  }
 }
 
 .fill-text--left {
